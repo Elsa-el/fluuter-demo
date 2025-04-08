@@ -28,12 +28,12 @@ class FrontPage extends StatelessWidget {
                 child: Image.asset(
                   'assets/images/pic1.png',
                   width: 420, // Adjust image size accordingly
-                  height: 420,
+                  height: 460,
                   fit: BoxFit.cover, // Ensure image covers the container
                 ),
               ),
             ),
-            const SizedBox(height: 30), // Space between images
+            const SizedBox(height: 50), // Space between images
             // Second image
             Image.asset('assets/images/images.png', width: 500, height: 200),
             const SizedBox(
